@@ -1,0 +1,11 @@
+# Секреты — никогда не коммитим
+.env
+.env.local
+.dev.vars
+
+# Служебное
+.DS_Store
+Thumbs.db
+desktop.ini
+node_modules/
+.wrangler/

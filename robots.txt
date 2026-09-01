@@ -1,0 +1,55 @@
+# robots.txt — remok.uz
+# Ремонт и обслуживание стиральных машин и кондиционеров в Ташкенте
+
+User-agent: *
+Allow: /
+
+# CSS, JS и картинки открыты намеренно: без них Google и Яндекс
+# не смогут отрисовать страницу и посчитают её «неудобной для мобильных».
+Allow: /css/
+Allow: /js/
+Allow: /images/
+
+# Служебные файлы в индексе не нужны
+Disallow: /README.md
+Disallow: /worker.js
+Disallow: /.env
+Disallow: /.env.example
+
+# Мусорные параметры в ссылках (utm-метки из рекламы)
+Disallow: /*?utm_
+Disallow: /*?fbclid=
+Disallow: /*?gclid=
+
+# Основные поисковики Узбекистана — без ограничений
+User-agent: Googlebot
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+
+User-agent: Yandex
+Allow: /
+
+# SEO-краулеры сканируют агрессивно и жрут трафик хостинга.
+# Не блокируем полностью, но просим сбавить темп.
+User-agent: AhrefsBot
+Crawl-delay: 10
+
+User-agent: SemrushBot
+Crawl-delay: 10
+
+User-agent: MJ12bot
+Crawl-delay: 10
+
+User-agent: DotBot
+Crawl-delay: 10
+
+# ИИ-скрейперы, которые не приводят посетителей
+User-agent: GPTBot
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+Sitemap: https://remok.uz/sitemap.xml

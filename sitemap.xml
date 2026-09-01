@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Карта сайта remok.uz
+
+  Сайт одностраничный, поэтому URL здесь один. Разделы (#services, #prices
+  и т.д.) — это якоря внутри той же страницы, отдельными адресами они не
+  считаются, и добавлять их в sitemap не нужно.
+
+  Дополнительно перечислены изображения — они попадут в поиск по картинкам.
+
+  ВАЖНО: при каждом заметном обновлении сайта меняйте дату в <lastmod>.
+-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  <url>
+    <loc>https://remok.uz/</loc>
+    <lastmod>2026-09-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+
+    <image:image>
+      <image:loc>https://remok.uz/images/hero-master.jpg</image:loc>
+      <image:title>Мастер Remok.uz за ремонтом техники на дому в Ташкенте</image:title>
+      <image:caption>Ремонт и обслуживание стиральных машин и кондиционеров в Ташкенте</image:caption>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://remok.uz/images/svc-washer.jpg</image:loc>
+      <image:title>Ремонт стиральных машин в Ташкенте</image:title>
+      <image:caption>Замена ТЭНа, насоса, подшипников, ремонт модуля управления</image:caption>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://remok.uz/images/svc-ac.jpg</image:loc>
+      <image:title>Ремонт и обслуживание кондиционеров в Ташкенте</image:title>
+      <image:caption>Чистка, заправка фреоном, устранение утечки, установка сплит-систем</image:caption>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://remok.uz/images/svc-maintenance.jpg</image:loc>
+      <image:title>Профилактика и чистка кондиционера</image:title>
+      <image:caption>Сезонное обслуживание сплит-систем для дома и квартиры</image:caption>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://remok.uz/images/svc-industrial.jpg</image:loc>
+      <image:title>Обслуживание промышленных систем кондиционирования</image:title>
+      <image:caption>Чиллеры, VRF, кассетные и канальные системы для бизнеса</image:caption>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://remok.uz/images/svc-fridge.jpg</image:loc>
+      <image:title>Ремонт холодильников в Ташкенте</image:title>
+      <image:caption>Заправка фреоном, замена компрессора, система No Frost</image:caption>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://remok.uz/images/svc-dishwasher.jpg</image:loc>
+      <image:title>Ремонт посудомоечных машин в Ташкенте</image:title>
+      <image:caption>Насос и фильтры, разбрызгиватели, нагрев, электроника</image:caption>
+    </image:image>
+
+  </url>
+
+</urlset>
