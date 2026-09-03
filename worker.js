@@ -18,7 +18,7 @@
       Удалите весь пример и вставьте содержимое ЭТОГО файла  →  Deploy
    4. Settings  →  Variables and Secrets  →  добавьте (тип Secret):
 
-        TG_TOKEN     8447297138:AAHvQ1AuSqHuaG8Ph7WiGuXJLR77zpMXJb4
+        TG_TOKEN     
         TG_CHAT_IDS  2077634702,1430286964,5884034743
         ALLOW_ORIGIN https://remok.uz
 
